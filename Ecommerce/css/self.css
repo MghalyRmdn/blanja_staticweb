@@ -16,7 +16,7 @@ img.img-fluid {
     width: 24px;
     height: 24px;
     left: 35rem;
-    top: 0.6rem;
+    top: -0.1rem;
 
 }
 
@@ -45,30 +45,6 @@ img.img-fluid {
     border-radius: 8px;
 }
 
-#img-tshirt {
-    margin-top: 3.5rem;
-    z-index: 1;
-}
-
-#img-short {
-    margin-top: 3.5rem;
-    z-index: 1;
-}
-
-#img-jacket {
-    margin-top: 3.5rem;
-    z-index: 1;
-}
-
-#img-pants {
-    margin-top: 3.5rem;
-    z-index: 1;
-}
-
-#img-shoes {
-    margin-top: 3.5rem;
-    z-index: 1;
-}
 
 #icon-left {
     background-color: snow;
@@ -94,41 +70,6 @@ img.img-fluid {
     top: 5rem;
 }
 
-#img-bg1 {
-    position: absolute;
-    width: 285px;
-    height: 200px;
-    border-radius: 15% !important;
-    border: none;
-
-}
-
-
-#img-bg2 {
-    border: none;
-    border-radius: 5%;
-    height: 200px;
-    left: 1.8rem;
-    width: 455px;
-    position: absolute;
-}
-
-#img-bg3 {
-    position: absolute;
-    width: 400px;
-    height: 200px;
-    left: -3.5rem;
-    border: none;
-    border-radius: 5%;
-}
-
-#img-bg4 {
-    position: absolute;
-    right: 3rem;
-    height: 200px;
-    border-radius: 8% !important;
-    border: none;
-}
 
 a {
     color: snow;
@@ -140,7 +81,7 @@ a {
 @media only screen and (max-width: 480px),
 only screen and (max-device-width: 480px) {
     image {
-        margin-left: 5rem !important;
+        overflow: hidden;
     }
 }
 
@@ -233,7 +174,7 @@ p#boots {
 #button-login {
     position: absolute;
     left: 39rem;
-    bottom: auto;
+    bottom: -15px;
     margin-left: 40px;
     border-radius: 25px;
     width: 100px;
@@ -253,11 +194,11 @@ p#boots {
 
 #button-signup {
     position: absolute;
+    bottom: -15px;
     left: 49rem;
     border-radius: 25px;
     width: 100px;
     height: 36px;
-    /* margin-left: 20px; */
     border: 1px solid #9B9B9B;
 }
 
@@ -361,6 +302,14 @@ i.fa.fa-star.text-warning {
     position: relative;
 }
 
+/* .jumbotron.jumbotron-fluid.mt-2 {
+    width: 100%;
+} */
+
+.container.text-center.mt-3 {
+    position: relative;
+    left: 12rem;
+}
 
 @media only screen and (max-width: 480px),
 only screen and (max-device-width: 480px) {
@@ -435,9 +384,8 @@ h4 {
 }
 
 .container.p-0 {
-    margin-top: 14rem;
-    /* justify-content: space-around; */
-    /* margin-left: 10rem; */
+    margin-top: 2rem;
+    margin-right: 10rem;
 
 }
 
@@ -452,4 +400,115 @@ h4 {
 .container-boxes {
     margin-bottom: 2.5rem;
     position: absolute;
+}
+
+
+
+
+.card-promotion-girl img {
+    width: 70px;
+    height: 180px;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: 65% 27%;
+}
+
+.card-promotion-men img,
+.card-promotion-men-two img,
+.card-promotion-men-last img {
+    width: 450px;
+    height: 180px;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: 0 8%;
+}
+
+.card-promotion-men-two img,
+.card-promotion-men-last img {
+    object-position: 0 27%;
+}
+
+.card-promotion-men-last img {
+    width: 70px;
+    object-position: 12% 27%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    height: 40px;
+    width: 40px;
+    outline: #9b9b9b;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid #9b9b9b;
+    background-color: #9b9b9b;
+}
+
+.section-div {
+    margin-top: 40px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+
+
+.flex-category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shorts,
+.t-shirt {
+    margin-bottom: 25px;
+    width: 205px;
+    height: 220px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.t-shirt {
+    background: #db3022;
+}
+
+.shorts {
+    background: #1c3391;
+}
+
+.jacket {
+    background: #f67b02;
+}
+
+.jacket,
+.pants,
+.shoes {
+    margin-bottom: 25px;
+    width: 205px;
+    height: 220px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.pants {
+    background: #e31f51;
+}
+
+.shoes {
+    background: #57cd9e;
+}
+
+
+.flex-category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
