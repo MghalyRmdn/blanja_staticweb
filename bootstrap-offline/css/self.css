@@ -182,11 +182,11 @@ i.fa.fa-star.text-warning {
 
 @media only screen and (max-width: 480px),
 only screen and (max-device-width: 480px) {
-    .header {
-        font-size: 16px;
-        margin-top: 20px !important;
+    .navbar {
+        align-items: center;
+        width: 45%;
+        height: 45%;
     }
-
 }
 
 .col-sm-12.col-lg-6 {
@@ -247,12 +247,6 @@ h4 {
     margin-left: 10px;
 }
 
-.navbar {
-    margin-top: 0.1rem !important;
-    display: flex;
-    flex-direction: row;
-    /* padding: 0% !important; */
-}
 
 .container.p-0 {
     position: relative;
