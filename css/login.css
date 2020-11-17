@@ -6,6 +6,7 @@
  .body-wrap {
      box-sizing: border-box;
      font-family: metropolis;
+     margin-top: 5rem;
  }
 
  a.md-opjjpmhoiojifppkkcdabiobhakljdgm_doc {
@@ -27,6 +28,8 @@
  @media screen and (max-width: 767.98px) {
 
      .container {
+         display: flex;
+         flex-direction: column;
          margin-bottom: 45px;
          padding: 1.5rem;
          margin: 0;
@@ -34,7 +37,6 @@
          left: 20px;
 
      }
-
  }
 
  #heading-login {
