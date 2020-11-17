@@ -34,6 +34,11 @@ only screen and (max-device-width: 480px) {
     image {
         overflow: hidden;
     }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
@@ -244,6 +249,8 @@ h4 {
 
 .navbar {
     margin-top: 0.1rem !important;
+    display: flex;
+    flex-direction: row;
     /* padding: 0% !important; */
 }
 
