@@ -15,60 +15,11 @@ img.img-fluid {
     position: absolute;
     width: 24px;
     height: 24px;
-    left: 35rem;
+    left: 36rem;
     top: -0.1rem;
 
 }
 
-#card-1 {
-    background-color: #CC0B04;
-    border-radius: 8px;
-}
-
-#card-2 {
-    background-color: #1C3391;
-    border-radius: 8px;
-}
-
-#card-3 {
-    background-color: #F67B02;
-    border-radius: 8px;
-}
-
-#card-4 {
-    background-color: #E31F51;
-    border-radius: 8px;
-}
-
-#card-5 {
-    background-color: #57CD9E;
-    border-radius: 8px;
-}
-
-
-#icon-left {
-    background-color: snow;
-    border-radius: 50%;
-    position: absolute;
-    right: 26rem;
-    top: 4rem;
-}
-
-#icon-right {
-    background-color: snow;
-    position: absolute;
-    border-radius: 50%;
-    right: 12.5rem;
-    top: 4rem;
-}
-
-#icon-card {
-    background-color: snow;
-    position: absolute;
-    border-radius: 50%;
-    right: 9rem;
-    top: 5rem;
-}
 
 
 a {
@@ -87,93 +38,10 @@ only screen and (max-device-width: 480px) {
 
 
 
-p#gambar-1 {
-
-    font-size: 39px;
-    height: 38px;
-    top: 4.5rem;
-    left: 5rem;
-    position: absolute;
-    text-align: center;
-    font-weight: bold;
-    color: white;
-    z-index: 2;
-}
-
-p#gambar-2 {
-
-    font-size: 39px;
-    height: 38px;
-    top: 4.5rem;
-    left: 1rem;
-    position: absolute;
-    text-align: center;
-    font-weight: bold;
-    color: white;
-    z-index: 2;
-}
-
-p#tshirt {
-
-    font-size: 30px;
-    font-weight: bold;
-    color: #ffffff;
-    position: absolute;
-    z-index: 2;
-    top: 105px;
-    left: 2.5rem;
-}
-
-
-p#shorts {
-
-    font-size: 30px;
-    font-weight: bold;
-    color: #ffffff;
-    position: absolute;
-    z-index: 2;
-    top: 105px;
-    left: 2.5rem;
-}
-
-p#jacket {
-
-    font-size: 30px;
-    font-weight: bold;
-    color: #ffffff;
-    position: absolute;
-    z-index: 2;
-    top: 105px;
-    left: 2.5rem;
-
-}
-
-p#pants {
-
-    font-size: 30px;
-    font-weight: bold;
-    color: #ffffff;
-    position: absolute;
-    z-index: 2;
-    top: 105px;
-    left: 2.5rem;
-}
-
-p#boots {
-
-    font-size: 30px;
-    font-weight: bold;
-    color: #ffffff;
-    position: absolute;
-    z-index: 2;
-    top: 105px;
-    left: 2.5rem;
-}
-
 
 #button-login {
     position: absolute;
-    left: 39rem;
+    left: 36rem;
     bottom: -15px;
     margin-left: 40px;
     border-radius: 25px;
@@ -195,7 +63,7 @@ p#boots {
 #button-signup {
     position: absolute;
     bottom: -15px;
-    left: 49rem;
+    left: 46rem;
     border-radius: 25px;
     width: 100px;
     height: 36px;
@@ -302,10 +170,6 @@ i.fa.fa-star.text-warning {
     position: relative;
 }
 
-/* .jumbotron.jumbotron-fluid.mt-2 {
-    width: 100%;
-} */
-
 .container.text-center.mt-3 {
     position: relative;
     left: 12rem;
@@ -338,7 +202,7 @@ h4 {
     color: #9B9B9B;
 }
 
-.lingkaran1 {
+.circle1 {
     width: 10px;
     height: 10px;
     background: #8E8A8A;
@@ -346,7 +210,7 @@ h4 {
     margin-left: 10px;
 }
 
-.lingkaran2 {
+.circle2 {
     width: 10px;
     height: 10px;
     background: #8E8A8A;
@@ -354,7 +218,7 @@ h4 {
     margin-left: 10px;
 }
 
-.lingkaran3 {
+.circle3 {
     width: 10px;
     height: 10px;
     background: #8E8A8A;
@@ -362,7 +226,7 @@ h4 {
     margin-left: 10px;
 }
 
-.lingkaran4 {
+.circle4 {
     width: 10px;
     height: 10px;
     background: #8E8A8A;
@@ -370,7 +234,7 @@ h4 {
     margin-left: 10px;
 }
 
-.lingkaran5 {
+.circle5 {
     width: 10px;
     height: 10px;
     background: #8E8A8A;
@@ -405,6 +269,10 @@ h4 {
 
 
 
+.card.mr-3:hover {
+    box-shadow: 2px 2px 2px rgba(253, 253, 253, 0.822);
+    transform: scale(1.02);
+}
 
 .card-promotion-girl img {
     width: 70px;
@@ -438,10 +306,9 @@ h4 {
 .carousel-control-prev-icon {
     height: 40px;
     width: 40px;
-    outline: #9b9b9b;
-    background-size: 100%, 100%;
+    outline: #ff05ff;
     border-radius: 50%;
-    border: 1px solid #9b9b9b;
+    border: 1px solid #ffffff;
     background-color: #9b9b9b;
 }
 
@@ -449,7 +316,7 @@ h4 {
     margin-top: 40px;
 }
 
-.centered {
+.with-center {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -467,6 +334,7 @@ h4 {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 
 .shorts,
 .t-shirt {
@@ -487,6 +355,31 @@ h4 {
 
 .jacket {
     background: #f67b02;
+}
+
+.t-shirt:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
+
+.shorts:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
+
+.jacket:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
+
+.pants:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
+
+.shoes:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
 }
 
 .jacket,
