@@ -197,6 +197,7 @@ only screen and (max-device-width: 480px) {
 
 nav {
     height: 100px;
+    padding-right: 27rem;
 }
 
 
